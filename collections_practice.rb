@@ -31,4 +31,5 @@ def kesha_maker(array)
   array.map do |word|
     answer << word[0..2]+ "$" + word[4..-1]
   end 
+  answer 
 end 
