@@ -8,3 +8,8 @@ def sort_array_desc(array)
   new_array = array.sort.reverse
   new_array
 end 
+
+
+def sort_array_char_count(array)
+  array.sort do |
+end 
