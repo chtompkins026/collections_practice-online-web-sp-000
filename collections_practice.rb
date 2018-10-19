@@ -25,3 +25,10 @@ def reverse_array(array)
   copy = array.reverse 
   copy 
 end 
+
+def kesha_maker(array)
+  answer = [] 
+  array.map do |word|
+    answer << word[0..2]+ "$" + word[4..-1]
+  end 
+end 
