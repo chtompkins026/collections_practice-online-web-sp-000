@@ -29,7 +29,7 @@ end
 def kesha_maker(array)
   answer = [] 
   array.map do |word|
-    answer << word[0..2]+ "$" + word[4..-1]
+    answer << word[0..1]+ "$" + word[3..-1]
   end 
   answer 
 end 
