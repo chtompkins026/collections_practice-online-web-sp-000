@@ -1,6 +1,6 @@
 
 def sort_array_asc(array)
-  array.each do |a,b| 
+  array.sort do |a,b| 
     a <=> b
   end 
   array 
