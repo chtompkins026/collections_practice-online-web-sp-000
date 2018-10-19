@@ -45,7 +45,7 @@ end
 def add_s(array)
   answer = [] 
     array.each_with_index do |word, idx|
-      unless idx == 2 
+      unless idx == 1 
         answer << word + "s" 
       else 
         answer << word 
