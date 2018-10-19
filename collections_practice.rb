@@ -42,4 +42,14 @@ def sum_array(array)
   array.inject(&:+)
 end 
 
+def add_s(array)
+  answer = [] 
+    array.each_with_index do |word, idx|
+      unless idx == 2 
+        answer << word + "s" 
+      else 
+        answer << word 
+      end 
+    end 
+end 
 
