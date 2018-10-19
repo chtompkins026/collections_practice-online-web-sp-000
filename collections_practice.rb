@@ -51,5 +51,6 @@ def add_s(array)
         answer << word 
       end 
     end 
+    answer 
 end 
 
